@@ -7,17 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E2971C40E61635A6A760D50 /* Pods_Haterade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C38C69A705DE75DCA4A8414 /* Pods_Haterade.framework */; };
+		E511B52B1F2AA02E007180A3 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E511B52A1F2AA02D007180A3 /* SWRevealViewController.m */; };
+		E511B5311F2AA679007180A3 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E511B5301F2AA679007180A3 /* ChatVC.swift */; };
+		E511B5331F2AA698007180A3 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E511B5321F2AA698007180A3 /* ChannelVC.swift */; };
+		E511B5351F2AA6B3007180A3 /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E511B5341F2AA6B3007180A3 /* LeagueVC.swift */; };
+		E511B5371F2AAEC2007180A3 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E511B5361F2AAEC1007180A3 /* GradientView.swift */; };
+		E511B53A1F2ABD99007180A3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E511B5391F2ABD99007180A3 /* Constants.swift */; };
+		E511B53C1F2AC322007180A3 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E511B53B1F2AC322007180A3 /* LoginVC.swift */; };
+		E576396F1F33B63000C35CCB /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E576396E1F33B63000C35CCB /* CreateAccountVC.swift */; };
 		E5EB918E1F2A93C90092DCAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB918D1F2A93C80092DCAA /* AppDelegate.swift */; };
-		E5EB91901F2A93C90092DCAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB918F1F2A93C90092DCAA /* ViewController.swift */; };
 		E5EB91931F2A93C90092DCAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5EB91911F2A93C90092DCAA /* Main.storyboard */; };
 		E5EB91951F2A93C90092DCAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5EB91941F2A93C90092DCAA /* Assets.xcassets */; };
 		E5EB91981F2A93C90092DCAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5EB91961F2A93C90092DCAA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C7B7628042628C5F631C57A /* Pods-Haterade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haterade.release.xcconfig"; path = "Pods/Target Support Files/Pods-Haterade/Pods-Haterade.release.xcconfig"; sourceTree = "<group>"; };
+		8C38C69A705DE75DCA4A8414 /* Pods_Haterade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Haterade.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BCF70E4968804F61EE3B421 /* Pods-Haterade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haterade.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Haterade/Pods-Haterade.debug.xcconfig"; sourceTree = "<group>"; };
+		E511B5291F2AA02D007180A3 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../Downloads/Smack Assets/SWReveal/SWRevealViewController.h"; sourceTree = "<group>"; };
+		E511B52A1F2AA02D007180A3 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../../Downloads/Smack Assets/SWReveal/SWRevealViewController.m"; sourceTree = "<group>"; };
+		E511B52C1F2AA126007180A3 /* Haterade-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Haterade-Bridging-Header.h"; sourceTree = "<group>"; };
+		E511B5301F2AA679007180A3 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		E511B5321F2AA698007180A3 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		E511B5341F2AA6B3007180A3 /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
+		E511B5361F2AAEC1007180A3 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		E511B5391F2ABD99007180A3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E511B53B1F2AC322007180A3 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E576396E1F33B63000C35CCB /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		E5EB918A1F2A93C80092DCAA /* Haterade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haterade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5EB918D1F2A93C80092DCAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E5EB918F1F2A93C90092DCAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E5EB91921F2A93C90092DCAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5EB91941F2A93C90092DCAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5EB91971F2A93C90092DCAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -29,17 +49,82 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E2971C40E61635A6A760D50 /* Pods_Haterade.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11DEC0C5464588AD33FB8012 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C38C69A705DE75DCA4A8414 /* Pods_Haterade.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF9345C80748DAA9CF6A9E13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BCF70E4968804F61EE3B421 /* Pods-Haterade.debug.xcconfig */,
+				6C7B7628042628C5F631C57A /* Pods-Haterade.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E511B51E1F2A9DE2007180A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E511B5291F2AA02D007180A3 /* SWRevealViewController.h */,
+				E511B52A1F2AA02D007180A3 /* SWRevealViewController.m */,
+				E511B52C1F2AA126007180A3 /* Haterade-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E511B52D1F2AA641007180A3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E511B5301F2AA679007180A3 /* ChatVC.swift */,
+				E511B5321F2AA698007180A3 /* ChannelVC.swift */,
+				E511B5341F2AA6B3007180A3 /* LeagueVC.swift */,
+				E511B53B1F2AC322007180A3 /* LoginVC.swift */,
+				E576396E1F33B63000C35CCB /* CreateAccountVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E511B52E1F2AA648007180A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E511B5361F2AAEC1007180A3 /* GradientView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E511B52F1F2AA652007180A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E511B5381F2ABD88007180A3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E511B5391F2ABD99007180A3 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		E5EB91811F2A93C80092DCAA = {
 			isa = PBXGroup;
 			children = (
 				E5EB918C1F2A93C80092DCAA /* Haterade */,
 				E5EB918B1F2A93C80092DCAA /* Products */,
+				CF9345C80748DAA9CF6A9E13 /* Pods */,
+				11DEC0C5464588AD33FB8012 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,8 +139,12 @@
 		E5EB918C1F2A93C80092DCAA /* Haterade */ = {
 			isa = PBXGroup;
 			children = (
+				E511B5381F2ABD88007180A3 /* Utilities */,
+				E511B52F1F2AA652007180A3 /* Model */,
+				E511B52E1F2AA648007180A3 /* View */,
+				E511B52D1F2AA641007180A3 /* Controller */,
+				E511B51E1F2A9DE2007180A3 /* Supporting Files */,
 				E5EB918D1F2A93C80092DCAA /* AppDelegate.swift */,
-				E5EB918F1F2A93C90092DCAA /* ViewController.swift */,
 				E5EB91911F2A93C90092DCAA /* Main.storyboard */,
 				E5EB91941F2A93C90092DCAA /* Assets.xcassets */,
 				E5EB91961F2A93C90092DCAA /* LaunchScreen.storyboard */,
@@ -71,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5EB919C1F2A93C90092DCAA /* Build configuration list for PBXNativeTarget "Haterade" */;
 			buildPhases = (
+				9B59679734BA73E4CEFCBFF7 /* [CP] Check Pods Manifest.lock */,
 				E5EB91861F2A93C80092DCAA /* Sources */,
 				E5EB91871F2A93C80092DCAA /* Frameworks */,
 				E5EB91881F2A93C80092DCAA /* Resources */,
+				EF32AC464DC09BECAC422F3E /* [CP] Embed Pods Frameworks */,
+				D1CC2AAC9626EA8725D70DAD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +188,7 @@
 				TargetAttributes = {
 					E5EB91891F2A93C80092DCAA = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 					};
 				};
 			};
@@ -130,13 +223,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9B59679734BA73E4CEFCBFF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1CC2AAC9626EA8725D70DAD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Haterade/Pods-Haterade-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF32AC464DC09BECAC422F3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Haterade/Pods-Haterade-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E5EB91861F2A93C80092DCAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5EB91901F2A93C90092DCAA /* ViewController.swift in Sources */,
+				E511B5351F2AA6B3007180A3 /* LeagueVC.swift in Sources */,
+				E511B5331F2AA698007180A3 /* ChannelVC.swift in Sources */,
+				E511B53C1F2AC322007180A3 /* LoginVC.swift in Sources */,
+				E511B5371F2AAEC2007180A3 /* GradientView.swift in Sources */,
+				E511B5311F2AA679007180A3 /* ChatVC.swift in Sources */,
+				E576396F1F33B63000C35CCB /* CreateAccountVC.swift in Sources */,
+				E511B53A1F2ABD99007180A3 /* Constants.swift in Sources */,
 				E5EB918E1F2A93C90092DCAA /* AppDelegate.swift in Sources */,
+				E511B52B1F2AA02E007180A3 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,13 +419,17 @@
 		};
 		E5EB919D1F2A93C90092DCAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BCF70E4968804F61EE3B421 /* Pods-Haterade.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = K3QN7X3UHX;
 				INFOPLIST_FILE = Haterade/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chadfegley.Haterade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Haterade/Supporting Files/Haterade-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,13 +437,16 @@
 		};
 		E5EB919E1F2A93C90092DCAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C7B7628042628C5F631C57A /* Pods-Haterade.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = K3QN7X3UHX;
 				INFOPLIST_FILE = Haterade/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chadfegley.Haterade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Haterade/Supporting Files/Haterade-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -316,6 +471,7 @@
 				E5EB919E1F2A93C90092DCAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
